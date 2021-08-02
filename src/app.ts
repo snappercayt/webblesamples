@@ -1,4 +1,4 @@
-import { serialHandler } from './serial-handler.js';
+import { serialHandler } from './serial-handler';
 
 /**
  * UI specific code
