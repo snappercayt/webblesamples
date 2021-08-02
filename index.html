@@ -71,10 +71,11 @@
 
         async function getSerialMessage() {
             // serialMessagesContainer.innerText += await serialLEDController.read() + '\n';
-            serialoutput1.innerHTML = await serialLEDController.read();
-            serialoutput2.innerHTML = await serialLEDController.read();
-            serialoutput3.innerHTML = await serialLEDController.read();
-            serialoutput4.innerHTML = await serialLEDController.read();
+            var x1 = await serialLEDController.read();
+            document.getElementById("serial-output-1").Value = x1;
+            //serialoutput2.innerHTML = await serialLEDController.read();
+            //serialoutput3.innerHTML = await serialLEDController.read();
+            //serialoutput4.innerHTML = await serialLEDController.read();
         }
     </script>
 </body>
