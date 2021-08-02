@@ -19,16 +19,23 @@
 <body>
 
     <button id="connect-to-serial">Connect to serial port</button>
-
-    <button id="get-serial-messages">Get serial</button>
+    <button id="get-serial-messages">Get serial messages</button>
     <div>
         <form id="message-form">
-            <input type="text" id="message-input" disabled>
+            <input type="text" id="message-input" disabled="true">
             <button type="submit" id="submit-button" disabled="true">Send</button>
         </form>
     </div>
-    <div id="serial-output">Serial data receieved</div>
+    <div id="serial-messages-container"></div>
+    <input type="text" id="serial-output-1" disabled>
+    <input type="text" id="serial-output-2" disabled>
+    <input type="text" id="serial-output-3" disabled>
+    <input type="text" id="serial-output-4" disabled>
 
+
+    <div class="repo-link">
+        <a href="https://github.com/UnJavaScripter/web-serial-example">GitHub Repo</a>
+    </div>
 
     <script src="./dist/app.js"></script>
     <script>
@@ -59,7 +66,13 @@
         });
 
         async function getSerialMessage() {
-            serialMessagesContainer.document.getElementById(serial - output) += await serialLEDController.read() + '\n';
+            // serialMessagesContainer.innerText += await serialLEDController.read() + '\n';
+            document.getElementById("serial-output-1").value = serialLEDController.read();
+            document.getElementById("serial-output-2").value = serialLEDController.read();
+            document.getElementById("serial-output-3").value = serialLEDController.read();
+            document.getElementById("serial-output-4").value = serialLEDController.read();
+
+
         }
     </script>
 </body>
