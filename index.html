@@ -57,7 +57,7 @@
 
         messageForm.addEventListener('submit', event => {
             event.preventDefault();
-            serialLEDController.write(event.target.firstElementChild.value);
+            serialLEDController.write(event.target.firstElementChild.innerHTML);
             getSerialMessage();
         });
 
@@ -67,10 +67,10 @@
 
         async function getSerialMessage() {
             // serialMessagesContainer.innerText += await serialLEDController.read() + '\n';
-            document.getElementById("serial-output-1").value = serialLEDController.read();
-            document.getElementById("serial-output-2").value = serialLEDController.read();
-            document.getElementById("serial-output-3").value = serialLEDController.read();
-            document.getElementById("serial-output-4").value = serialLEDController.read();
+            document.getElementById("serial-output-1").innerHTML = serialLEDController.read();
+            document.getElementById("serial-output-2").innerHTML = serialLEDController.read();
+            document.getElementById("serial-output-3").innerHTML = serialLEDController.read();
+            document.getElementById("serial-output-4").innerHTML = serialLEDController.read();
 
 
         }
