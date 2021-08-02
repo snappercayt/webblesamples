@@ -46,6 +46,10 @@
         const messageInput = document.getElementById('message-input');
         const submitButton = document.getElementById('submit-button');
         const serialMessagesContainer = document.getElementById('serial-messages-container');
+        const serialoutput1 = document.getElementById('serial-output-1');
+        const serialoutput2 = document.getElementById('serial-output-2');
+        const serialoutput3 = document.getElementById('serial-output-3');
+        const serialoutput4 = document.getElementById('serial-output-4');
 
         connect.addEventListener('pointerdown', () => {
             serialLEDController.init();
@@ -67,12 +71,10 @@
 
         async function getSerialMessage() {
             // serialMessagesContainer.innerText += await serialLEDController.read() + '\n';
-            document.getElementById("serial-output-1").innerHTML = await serialLEDController.read();
-            document.getElementById("serial-output-2").innerHTML = await serialLEDController.read();
-            document.getElementById("serial-output-3").innerHTML = await serialLEDController.read();
-            document.getElementById("serial-output-4").innerHTML = await serialLEDController.read();
-
-
+            serialoutput1.innerHTML = await serialLEDController.read();
+            serialoutput2.innerHTML = await serialLEDController.read();
+            serialoutput3.innerHTML = await serialLEDController.read();
+            serialoutput4.innerHTML = await serialLEDController.read();
         }
     </script>
 </body>
