@@ -27,6 +27,7 @@
             <button type="submit" id="submit-button" disabled="true">Send</button>
         </form>
     </div>
+    <div id="serial-output">Serial data receieved</div>
 
 
     <script src="./dist/app.js"></script>
@@ -58,7 +59,7 @@
         });
 
         async function getSerialMessage() {
-            serialMessagesContainer.innerText += await serialLEDController.read() + '\n';
+            serialMessagesContainer.document.getElementById(serial - output) += await serialLEDController.read() + '\n';
         }
     </script>
 </body>
