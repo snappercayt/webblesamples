@@ -41,6 +41,33 @@
                     <a class="nav-link active" aria-current="page" href="#">Main</a>
                 </nav>
             </div>
+            <script>
+                var ChromeSamples = {
+                    log: function() {
+                        var line = Array.prototype.slice.call(arguments).map(function(argument) {
+                            return typeof argument === 'string' ? argument : JSON.stringify(argument);
+                        }).join(' ');
+
+                        document.querySelector('#log').textContent += line + '\n';
+                    },
+
+                    clearLog: function() {
+                        document.querySelector('#log').textContent = '';
+                    },
+
+                    setStatus: function(status) {
+                        document.querySelector('#status').textContent = status;
+                    },
+
+                    setContent: function(newContent) {
+                        var content = document.querySelector('#content');
+                        while (content.hasChildNodes()) {
+                            content.removeChild(content.lastChild);
+                        }
+                        content.appendChild(newContent);
+                    }
+                };
+            </script>
         </header>
 
         <main class="px-3">
@@ -51,8 +78,8 @@
                     <div class="row">
                         <div class="col">
                             <div class="row">
-                                <button id="requestBluetoothDevice" class="btn btn-sm btn-primary">getdevice</button>
-
+                                <button onclick="onRequestBluetoothDeviceButtonClick()" class="btn btn-sm btn-primary">getdevice</button>
+                                <button onclick="onButtonClick()" class="btn btn-sm btn-primary">Scan Devices</button>
                             </div>
                         </div>
                         <div id="output" class="output">
@@ -68,6 +95,21 @@
                     </div>
                 </div>
             </p>
+
+            <form>
+                <label for="allAdvertisements">All Advertisements</label>
+                <input id="allAdvertisements" type="checkbox">
+                <input id="name" type="text" size=17 placeholder="Device Name">
+                <input id="namePrefix" type="text" size=17 placeholder="Device Name Prefix">
+                <button>Scan for Bluetooth Advertisements</button>
+            </form>
+
+            <h3>Live Output</h3>
+            <div id="output" class="output">
+                <div id="content">{{ include.initial_output_content }}</div>
+                <div id="status"></div>
+                <pre id="log"></pre>
+            </div>
         </main>
 
         <footer class="mt-auto text-white-50">
@@ -76,6 +118,19 @@
     </div>
 </body>
 <script src="getdevices.js"></script>
+<script src="scanadvt.js"></script>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.stopPropagation();
+        event.preventDefault();
+
+        if (isWebBluetoothEnabled()) {
+            ChromeSamples.clearLog();
+            onButtonClick();
+        }
+    });
+</script>
 
 
 </html>
