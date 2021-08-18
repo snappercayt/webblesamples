@@ -95,11 +95,42 @@
          *
          * @param {string} message Text to be placed in pre element.
          */
-        function appendPre(message) {
-            var pre = document.getElementById('content');
-            var textContent = document.createTextNode(message + '\n');
-            pre.appendChild(textContent);
+        function appendRow(table, elements, tag) {
+            var row = document.createElement('tr')
+            elements.forEach(function(e) {
+                var cell = document.createElement(tag || 'td')
+                if (typeof e === 'string') {
+                    cell.textContent = e
+                } else {
+                    cell.appendChild(e)
+                }
+
+                row.appendChild(cell)
+            })
+            table.appendChild(row)
         }
+
+
+        var file = {
+            name: 'hello',
+            viewedByMeTime: '2017-03-11T01:40:31.000Z',
+            webViewLink: 'http://drive.google.com/134ksdf014kldsfi0234lkjdsf0314/',
+            quotaBytesUsed: 0
+        }
+
+
+        var table = document.getElementById('content')
+
+        // Create header row
+        appendRow(table, ['Name', 'Date', 'Link', 'Size'], 'th')
+
+        // Create data row
+        appendRow(table, [
+            file.name,
+            file.viewedByMeTime.split('.')[0],
+            file.webViewLink,
+            file.quotaBytesUsed + ' bytes'
+        ])
 
         /**
          * Print the names and majors of students in a sample spreadsheet:

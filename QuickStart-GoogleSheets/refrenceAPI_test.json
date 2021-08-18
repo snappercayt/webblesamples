@@ -1,0 +1,4082 @@
+{
+    "spreadsheetId": "1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI",
+    "properties": {
+        "title": "testsheet",
+        "locale": "en_US",
+        "autoRecalc": "ON_CHANGE",
+        "timeZone": "Asia/Calcutta",
+        "defaultFormat": {
+            "backgroundColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+            },
+            "padding": {
+                "top": 2,
+                "right": 3,
+                "bottom": 2,
+                "left": 3
+            },
+            "verticalAlignment": "BOTTOM",
+            "wrapStrategy": "OVERFLOW_CELL",
+            "textFormat": {
+                "foregroundColor": {},
+                "fontFamily": "arial,sans,sans-serif",
+                "fontSize": 10,
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "foregroundColorStyle": {
+                    "rgbColor": {}
+                }
+            },
+            "backgroundColorStyle": {
+                "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                }
+            }
+        },
+        "spreadsheetTheme": {
+            "primaryFontFamily": "Arial",
+            "themeColors": [{
+                    "colorType": "ACCENT1",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.25882354,
+                            "green": 0.52156866,
+                            "blue": 0.95686275
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT6",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.27450982,
+                            "green": 0.7411765,
+                            "blue": 0.7764706
+                        }
+                    }
+                },
+                {
+                    "colorType": "BACKGROUND",
+                    "color": {
+                        "rgbColor": {
+                            "red": 1,
+                            "green": 1,
+                            "blue": 1
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT2",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.91764706,
+                            "green": 0.2627451,
+                            "blue": 0.20784314
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT3",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.9843137,
+                            "green": 0.7372549,
+                            "blue": 0.015686275
+                        }
+                    }
+                },
+                {
+                    "colorType": "TEXT",
+                    "color": {
+                        "rgbColor": {}
+                    }
+                },
+                {
+                    "colorType": "ACCENT4",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.20392157,
+                            "green": 0.65882355,
+                            "blue": 0.3254902
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT5",
+                    "color": {
+                        "rgbColor": {
+                            "red": 1,
+                            "green": 0.42745098,
+                            "blue": 0.003921569
+                        }
+                    }
+                },
+                {
+                    "colorType": "LINK",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.06666667,
+                            "green": 0.33333334,
+                            "blue": 0.8
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "sheets": [{
+        "properties": {
+            "sheetId": 0,
+            "title": "Sheet1",
+            "index": 0,
+            "sheetType": "GRID",
+            "gridProperties": {
+                "rowCount": 1000,
+                "columnCount": 26
+            }
+        },
+        "data": [{
+            "rowData": [{
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 1
+                            },
+                            "effectiveValue": {
+                                "numberValue": 1
+                            },
+                            "formattedValue": "1.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 2
+                            },
+                            "effectiveValue": {
+                                "numberValue": 2
+                            },
+                            "formattedValue": "2.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 4
+                            },
+                            "effectiveValue": {
+                                "numberValue": 4
+                            },
+                            "formattedValue": "4.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 5
+                            },
+                            "effectiveValue": {
+                                "numberValue": 5
+                            },
+                            "formattedValue": "5.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 6
+                            },
+                            "effectiveValue": {
+                                "numberValue": 6
+                            },
+                            "formattedValue": "6.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 2
+                            },
+                            "effectiveValue": {
+                                "numberValue": 2
+                            },
+                            "formattedValue": "2.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 4
+                            },
+                            "effectiveValue": {
+                                "numberValue": 4
+                            },
+                            "formattedValue": "4.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 5
+                            },
+                            "effectiveValue": {
+                                "numberValue": 5
+                            },
+                            "formattedValue": "5.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 6
+                            },
+                            "effectiveValue": {
+                                "numberValue": 6
+                            },
+                            "formattedValue": "6.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 3
+                            },
+                            "effectiveValue": {
+                                "numberValue": 3
+                            },
+                            "formattedValue": "3.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 4
+                            },
+                            "effectiveValue": {
+                                "numberValue": 4
+                            },
+                            "formattedValue": "4.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 5
+                            },
+                            "effectiveValue": {
+                                "numberValue": 5
+                            },
+                            "formattedValue": "5.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 6
+                            },
+                            "effectiveValue": {
+                                "numberValue": 6
+                            },
+                            "formattedValue": "6.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 5
+                            },
+                            "effectiveValue": {
+                                "numberValue": 5
+                            },
+                            "formattedValue": "5.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 6
+                            },
+                            "effectiveValue": {
+                                "numberValue": 6
+                            },
+                            "formattedValue": "6.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 6
+                            },
+                            "effectiveValue": {
+                                "numberValue": 6
+                            },
+                            "formattedValue": "6.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 12
+                            },
+                            "effectiveValue": {
+                                "numberValue": 12
+                            },
+                            "formattedValue": "12.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 7
+                            },
+                            "effectiveValue": {
+                                "numberValue": 7
+                            },
+                            "formattedValue": "7.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 12
+                            },
+                            "effectiveValue": {
+                                "numberValue": 12
+                            },
+                            "formattedValue": "12.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 13
+                            },
+                            "effectiveValue": {
+                                "numberValue": 13
+                            },
+                            "formattedValue": "13.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 8
+                            },
+                            "effectiveValue": {
+                                "numberValue": 8
+                            },
+                            "formattedValue": "8.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 12
+                            },
+                            "effectiveValue": {
+                                "numberValue": 12
+                            },
+                            "formattedValue": "12.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 13
+                            },
+                            "effectiveValue": {
+                                "numberValue": 13
+                            },
+                            "formattedValue": "13.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 14
+                            },
+                            "effectiveValue": {
+                                "numberValue": 14
+                            },
+                            "formattedValue": "14.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 9
+                            },
+                            "effectiveValue": {
+                                "numberValue": 9
+                            },
+                            "formattedValue": "9.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 12
+                            },
+                            "effectiveValue": {
+                                "numberValue": 12
+                            },
+                            "formattedValue": "12.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 13
+                            },
+                            "effectiveValue": {
+                                "numberValue": 13
+                            },
+                            "formattedValue": "13.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 14
+                            },
+                            "effectiveValue": {
+                                "numberValue": 14
+                            },
+                            "formattedValue": "14.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 15
+                            },
+                            "effectiveValue": {
+                                "numberValue": 15
+                            },
+                            "formattedValue": "15.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "values": [{
+                            "userEnteredValue": {
+                                "numberValue": 10
+                            },
+                            "effectiveValue": {
+                                "numberValue": 10
+                            },
+                            "formattedValue": "10.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 11
+                            },
+                            "effectiveValue": {
+                                "numberValue": 11
+                            },
+                            "formattedValue": "11.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 12
+                            },
+                            "effectiveValue": {
+                                "numberValue": 12
+                            },
+                            "formattedValue": "12.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 13
+                            },
+                            "effectiveValue": {
+                                "numberValue": 13
+                            },
+                            "formattedValue": "13.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 14
+                            },
+                            "effectiveValue": {
+                                "numberValue": 14
+                            },
+                            "formattedValue": "14.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 15
+                            },
+                            "effectiveValue": {
+                                "numberValue": 15
+                            },
+                            "formattedValue": "15.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "userEnteredValue": {
+                                "numberValue": 16
+                            },
+                            "effectiveValue": {
+                                "numberValue": 16
+                            },
+                            "formattedValue": "16.00",
+                            "userEnteredFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                }
+                            },
+                            "effectiveFormat": {
+                                "numberFormat": {
+                                    "type": "NUMBER",
+                                    "pattern": "0.00"
+                                },
+                                "backgroundColor": {
+                                    "red": 1,
+                                    "green": 1,
+                                    "blue": 1
+                                },
+                                "padding": {
+                                    "top": 2,
+                                    "right": 3,
+                                    "bottom": 2,
+                                    "left": 3
+                                },
+                                "horizontalAlignment": "RIGHT",
+                                "verticalAlignment": "BOTTOM",
+                                "wrapStrategy": "OVERFLOW_CELL",
+                                "textFormat": {
+                                    "foregroundColor": {},
+                                    "fontFamily": "Arial",
+                                    "fontSize": 10,
+                                    "bold": false,
+                                    "italic": false,
+                                    "strikethrough": false,
+                                    "underline": false,
+                                    "foregroundColorStyle": {
+                                        "rgbColor": {}
+                                    }
+                                },
+                                "hyperlinkDisplayType": "PLAIN_TEXT",
+                                "backgroundColorStyle": {
+                                    "rgbColor": {
+                                        "red": 1,
+                                        "green": 1,
+                                        "blue": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rowMetadata": [{
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                },
+                {
+                    "pixelSize": 21
+                }
+            ],
+            "columnMetadata": [{
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                },
+                {
+                    "pixelSize": 100
+                }
+            ]
+        }]
+    }],
+    "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI/edit"
+}
