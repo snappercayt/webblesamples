@@ -111,12 +111,13 @@
             elements.forEach(function(e) {
                 var cell = document.createElement(tag || 'td')
                 if (typeof e === 'string') {
-                    cell.textContent = e
-                } else {
-                    var urlcell = document.createElement('a')
+                    var urlcell = document.createElement(tag || 'a')
                     urlcell.hef = e;
                     urlcell.title = "click here for the sheet";
-                    a.style.color = "blue";
+                    urlcell.style.color = "blue";
+                    cell.textContent = e
+                } else {
+                    cell.appendChild(e)
                 }
                 //cell.appendChild(document.createTextNode(e))
                 row.appendChild(cell)
