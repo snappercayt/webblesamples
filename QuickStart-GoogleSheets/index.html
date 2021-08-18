@@ -145,7 +145,22 @@
             'this link 👇',
             file.quotaBytesUsed + ' bytes'
         ])
-        appendRow(table, [
+
+        function appendURL(table, elements, tag) {
+            var row = document.createElement('tr')
+            elements.forEach(function(e) {
+                var cell = document.createElement(tag || 'td')
+                if (typeof e === 'string') {
+                    cell.textContent = e;
+                } else {
+                    cell.appendChild(e)
+                }
+                //cell.appendChild(document.createTextNode(e))
+                row.appendChild(cell)
+            })
+            table.appendChild(row)
+        }
+        appendURL(table, [
             file.webViewLink,
         ], 'a')
 
