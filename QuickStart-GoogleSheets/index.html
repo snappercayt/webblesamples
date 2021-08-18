@@ -111,7 +111,7 @@
             elements.forEach(function(e) {
                 var cell = document.createElement(tag || 'a ')
                 if (typeof e === 'string') {
-                    cell.textContent = e
+                    cell.href = e
                 } else {
                     cell.appendChild(e)
                 }
