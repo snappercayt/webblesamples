@@ -114,6 +114,7 @@
                 if (typeof e === 'string') {
                     cell.textContent = e
                 } else {
+                    console.log(e.slice[0, 6]);
                     if (e.slice[0, 6] = 'https:') {
                         var urlcell = document.createElement('a')
                         urlcell.hef = e;
