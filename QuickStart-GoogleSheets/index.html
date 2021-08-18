@@ -160,11 +160,20 @@
             })
             table.appendChild(row)
         }
+
+
+        var file2 = {
+            name: 'hello',
+            viewedByMeTime: '2017-03-11 T0 1:40:31.000Z',
+            webViewLink: 'https://docs.google.com/spreadsheets/d/1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI/edit?usp=sharing',
+            quotaBytesUsed: 0
+        }
+
         appendURL(table, [
-            'one',
-            'two',
-            file.webViewLink,
-            'three',
+            file2.name,
+            file2.viewedByMeTime.split('.')[0],
+            file2.webViewLink,
+            file2.quotaBytesUsed + ' bytes'
         ], 'a')
 
 
