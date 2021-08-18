@@ -142,8 +142,11 @@
         appendRow(table, [
             file.name,
             file.viewedByMeTime.split('.')[0],
-            file.webViewLink,
+            'this link 👇',
             file.quotaBytesUsed + ' bytes'
+        ])
+        appendRow(table, [
+            file.webViewLink,
         ], 'a')
 
 
