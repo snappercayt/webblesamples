@@ -109,7 +109,7 @@
         function appendRow(table, elements, tag) {
             var row = document.createElement('tr')
             elements.forEach(function(e) {
-                var cell = document.createElement(tag || 'td')
+                var cell = document.createElement(tag || 'a ')
                 if (typeof e === 'string') {
                     var urlcell = document.createElement(tag || 'a')
                     urlcell.hef = e;
