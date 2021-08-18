@@ -111,10 +111,6 @@
             elements.forEach(function(e) {
                 var cell = document.createElement(tag || 'a ')
                 if (typeof e === 'string') {
-                    var urlcell = document.createElement(tag || 'a')
-                    urlcell.hef = e;
-                    urlcell.title = "click here for the sheet";
-                    urlcell.style.color = "blue";
                     cell.textContent = e
                 } else {
                     cell.appendChild(e)
@@ -145,7 +141,7 @@
             file.viewedByMeTime.split('.')[0],
             file.webViewLink,
             file.quotaBytesUsed + ' bytes'
-        ])
+        ], 'td')
 
 
         //& lt; a href =& quot; about.html & quot;& gt;
