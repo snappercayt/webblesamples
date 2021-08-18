@@ -25,6 +25,7 @@
     <button id="signout_button" style="display: none;">Sign Out</button>
 
     <span id="content" style="white-space: pre-wrap;"></span>
+    <pre id="precontent" style="white-space: pre-wrap;"></pre>
 
     <script type="text/javascript">
         // Client ID and API key from the Developer Console
@@ -67,7 +68,7 @@
                 authorizeButton.onclick = handleAuthClick;
                 signoutButton.onclick = handleSignoutClick;
             }, function(error) {
-                appendRow(JSON.stringify(error, null, 2));
+                appendPre(JSON.stringify(error, null, 2));
             });
         }
 
@@ -109,10 +110,11 @@
         function appendRow(table, elements, tag) {
             var row = document.createElement('tr')
             elements.forEach(function(e) {
-                var cell = document.createElement(tag || 'a ')
+                var cell = document.createElement(tag || 'td')
                 if (typeof e === 'string') {
-                    cell.href = e
-                    cell.Title = e
+                    cell.href = e;
+                    cell.Title = e;
+                    cell.textContent = e;
                 } else {
                     cell.appendChild(e)
                 }
@@ -142,10 +144,15 @@
             file.viewedByMeTime.split('.')[0],
             file.webViewLink,
             file.quotaBytesUsed + ' bytes'
-        ], 'td')
+        ])
 
 
         //& lt; a href =& quot; about.html & quot;& gt;
+        function appendPre(message) {
+            var pre = document.getElementById('precontent');
+            var textContent = document.createTextNode(message + '\n');
+            pre.appendChild(textContent);
+        }
         /**
          * Print the names and majors of students in a sample spreadsheet:
          * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
@@ -157,17 +164,18 @@
             }).then(function(response) {
                 var range = response.result;
                 if (range.values.length > 0) {
-                    appendRow('row, col');
+                    appendPre('row, col');
                     for (i = 0; i < range.values.length; i++) {
                         var row = range.values[i];
                         // Print columns A and E, which correspond to indices 0 and 4.
-                        appendRow(row);
+                        appendPre(row[i]);
+                        appendPre(row);
                     }
                 } else {
-                    appendRow('No data found.');
+                    appendPre('No data found.');
                 }
             }, function(response) {
-                appendRow('Error: ' + response.result.error.message);
+                appendPre('Error: ' + response.result.error.message);
             });
         }
     </script>
