@@ -140,11 +140,12 @@
         appendRow(table, [
             file.name,
             file.viewedByMeTime.split('.')[0],
+            'next line',
             file.quotaBytesUsed + ' bytes'
         ])
 
         // Create row for URL
-        appendRow(table, [file.webViewLink, ], a)
+        appendRow(table, [file.webViewLink, ], 'a')
 
         /**
          * Print the names and majors of students in a sample spreadsheet:
