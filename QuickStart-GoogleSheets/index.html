@@ -24,7 +24,7 @@
     <button id="authorize_button" style="display: none;">Authorize</button>
     <button id="signout_button" style="display: none;">Sign Out</button>
 
-    <div id="content" style="white-space: pre-wrap;"></div>
+    <span id="content" style="white-space: pre-wrap;"></span>
     <table id="content">
     </table>
     <script type="text/javascript">
@@ -114,7 +114,7 @@
                 if (typeof e === 'string') {
                     cell.textContent = e
                 } else {
-                    cell.appendChild(e)
+                    cell.appendChild(document.createTextNode(e))
                 }
 
                 row.appendChild(cell)
