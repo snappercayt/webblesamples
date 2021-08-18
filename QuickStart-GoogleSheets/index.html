@@ -4,6 +4,17 @@
 <head>
     <title>Google Sheets API Quickstart</title>
     <meta charset="utf-8" />
+    <style>
+        #content td,
+        #content th {
+            border: 1px solid #000;
+            padding: 0.5em;
+        }
+        
+        #content {
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,7 +25,8 @@
     <button id="signout_button" style="display: none;">Sign Out</button>
 
     <pre id="content" style="white-space: pre-wrap;"></pre>
-
+    <table id="content">
+    </table>
     <script type="text/javascript">
         // Client ID and API key from the Developer Console
         var CLIENT_ID = '263242106001-bdbcefem3l8msrnsc2dhrv6d8uvkkimi.apps.googleusercontent.com';
