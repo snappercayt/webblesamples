@@ -110,19 +110,18 @@
         function appendRow(table, elements, tag) {
             var row = document.createElement('tr')
             elements.forEach(function(e) {
-                    var cell = document.createElement(tag || 'td')
-                    if (typeof e === 'string') {
-                        cell.textContent = e
-                    } else {
-                        var urlcell = document.createElement('a')
-                        urlcell.hef = e;
-                        urlcell.title = "click here for the sheet";
-                        a.style.color = "blue";
-                    }
-                    cell.appendChild(document.createTextNode(e))
-                },
+                var cell = document.createElement(tag || 'td')
+                if (typeof e === 'string') {
+                    cell.textContent = e
+                } else {
+                    var urlcell = document.createElement('a')
+                    urlcell.hef = e;
+                    urlcell.title = "click here for the sheet";
+                    a.style.color = "blue";
+                }
+                cell.appendChild(document.createTextNode(e))
                 row.appendChild(cell)
-            )
+            })
             table.appendChild(row)
         }
 
