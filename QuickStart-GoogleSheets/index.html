@@ -126,7 +126,7 @@
         var file = {
             name: 'hello',
             viewedByMeTime: '2017-03-11T01:40:31.000Z',
-            webViewLink: 'https://docs.google.com/spreadsheets/d/1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI/edit?usp=sharing',
+            webViewLink: '<a href="https://docs.google.com/spreadsheets/d/1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI/edit?usp=sharing">Sheet URL</a>',
             quotaBytesUsed: 0
         }
 
@@ -140,12 +140,10 @@
         appendRow(table, [
             file.name,
             file.viewedByMeTime.split('.')[0],
-            'next line',
+            file.webViewLink,
             file.quotaBytesUsed + ' bytes'
         ])
 
-        // Create row for URL
-        appendRow(table, [file.webViewLink, ], a)
 
         //& lt; a href =& quot; about.html & quot;& gt;
         /**
