@@ -111,9 +111,9 @@
             var row = document.createElement('tr')
             elements.forEach(function(e) {
                 var cell = document.createElement(tag || 'td')
+                cell.href = e;
+                cell.Title = e;
                 if (typeof e === 'string') {
-                    cell.href = e;
-                    cell.Title = e;
                     cell.textContent = e;
                 } else {
                     cell.appendChild(e)
