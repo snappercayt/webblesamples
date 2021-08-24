@@ -131,18 +131,21 @@ limitations under the License.
                     for (var i = 0; i < files.length; i++) {
                         var file = files[i];
                         appendPre(file.name + ' (' + file.id + ')');
-                        var listid = getElementById('list');
-                        for (const val of files) {
-                            var option = document.createElement("option");
-                            option.value = val;
-                            option.text = val.charAt(0).toUpperCase() + val.slice(1);
-                            select.appendChild(option);
-                        }
+                    }
+                    var values = files;
+                    var listid = getElementById('list');
+                    for (const val of values) {
+                        var option = document.createElement("option");
+                        option.value = val;
+                        option.text = val.charAt(0).toUpperCase() + val.slice(1);
+                        select.appendPre(option);
                     }
                 } else {
                     appendPre('No files found.');
                 }
             });
+
+
         }
     </script>
 
