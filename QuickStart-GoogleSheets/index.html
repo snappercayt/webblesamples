@@ -139,8 +139,8 @@ limitations under the License.
                     var values = files;
                     for (const val of values) {
                         var option = document.createElement("option");
-                        option.value = val;
-                        option.text = val;
+                        option.value = val.id;
+                        option.text = val.name;
                         var select = document.getElementById("gdfiles");
                         select.appendChild(option);
                     }
