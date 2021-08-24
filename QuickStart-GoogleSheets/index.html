@@ -30,7 +30,7 @@ limitations under the License.
     <button id="signout_button" style="display: none;">Sign Out</button>
 
     <pre id="content" style="white-space: pre-wrap;"></pre>
-
+    <div id="list"></div>
     <script type="text/javascript">
         // Client ID and API key from the Developer Console
         var CLIENT_ID = '263242106001-bdbcefem3l8msrnsc2dhrv6d8uvkkimi.apps.googleusercontent.com';
@@ -131,6 +131,13 @@ limitations under the License.
                     for (var i = 0; i < files.length; i++) {
                         var file = files[i];
                         appendPre(file.name + ' (' + file.id + ')');
+                        var listid = getElementById('list');
+                        for (const val of file) {
+                            var option = document.createElement("option");
+                            option.value = val;
+                            option.text = val.charAt(0).toUpperCase() + val.slice(1);
+                            select.appendChild(option);
+                        }
                     }
                 } else {
                     appendPre('No files found.');
