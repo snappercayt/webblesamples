@@ -138,9 +138,10 @@ limitations under the License.
                     }
                     var values = files;
                     for (const val of values) {
-                        var option = document.getElementById("gdfiles_val");
+                        var option = document.createElement("option");
                         option.value = val;
                         option.text = val;
+                        var select = document.getElementById("gdfiles");
                         select.appendChild(option);
                     }
                 } else {
