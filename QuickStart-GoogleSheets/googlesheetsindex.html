@@ -1,29 +1,13 @@
-<!--
-Copyright 2018 Google LLC
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
-<!-- [START drive_quickstart] -->
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Drive API Quickstart</title>
+    <title>Google Sheets API Quickstart</title>
     <meta charset="utf-8" />
 </head>
 
 <body>
-    <p>Drive API Quickstart</p>
+    <p>Google Sheets API Quickstart</p>
 
     <!--Add buttons to initiate auth sequence and sign out-->
     <button id="authorize_button" style="display: none;">Authorize</button>
@@ -37,11 +21,11 @@ limitations under the License.
         var API_KEY = 'AIzaSyBi2OfvXGuFr6J8bsrWa76V99vV8Qy190o';
 
         // Array of API discovery doc URLs for APIs used by the quickstart
-        var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
+        var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
 
         // Authorization scopes required by the API; multiple scopes can be
         // included, separated by spaces.
-        var SCOPES = 'https://www.googleapis.com/auth/drive.metadata.readonly';
+        var SCOPES = "https://www.googleapis.com/auth/spreadsheets.readonly";
 
         var authorizeButton = document.getElementById('authorize_button');
         var signoutButton = document.getElementById('signout_button');
@@ -84,7 +68,7 @@ limitations under the License.
             if (isSignedIn) {
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
-                listFiles();
+                listMajors();
             } else {
                 authorizeButton.style.display = 'block';
                 signoutButton.style.display = 'none';
@@ -118,23 +102,27 @@ limitations under the License.
         }
 
         /**
-         * Print files.
+         * Print the names and majors of students in a sample spreadsheet:
+         * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
          */
-        function listFiles() {
-            gapi.client.drive.files.list({
-                'pageSize': 10,
-                'fields': "nextPageToken, files(id, name)"
+        function listMajors() {
+            gapi.client.sheets.spreadsheets.values.get({
+                spreadsheetId: '1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI',
+                range: 'Class Data!A2:E',
             }).then(function(response) {
-                appendPre('Files:');
-                var files = response.result.files;
-                if (files && files.length > 0) {
-                    for (var i = 0; i < files.length; i++) {
-                        var file = files[i];
-                        appendPre(file.name + ' (' + file.id + ')');
+                var range = response.result;
+                if (range.values.length > 0) {
+                    appendPre('Name, Major:');
+                    for (i = 0; i < range.values.length; i++) {
+                        var row = range.values[i];
+                        // Print columns A and E, which correspond to indices 0 and 4.
+                        appendPre(row[0] + ', ' + row[4]);
                     }
                 } else {
-                    appendPre('No files found.');
+                    appendPre('No data found.');
                 }
+            }, function(response) {
+                appendPre('Error: ' + response.result.error.message);
             });
         }
     </script>
@@ -144,4 +132,3 @@ limitations under the License.
 </body>
 
 </html>
-<!-- [END drive_quickstart] -->
