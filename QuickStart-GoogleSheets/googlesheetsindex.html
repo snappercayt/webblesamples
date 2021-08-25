@@ -69,6 +69,7 @@
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
                 var farm = listFarmer();
+                console.log(farm.values);
                 var coln = listCollection();
                 for (i = 0; i < farm.values.length; i++) {
                     appendPre('famr' + farm.values[i]);
@@ -131,7 +132,6 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var range = response.result;
-                console.log(range);
                 return (range);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
