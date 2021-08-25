@@ -112,8 +112,9 @@
                 spreadsheetId: '1VzJiV4gMXYVu6CsEULymTHamH9KAp9EupEQOk8O8IRs',
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
-                var output1 = response.result.values;
-                appendPre(output1);
+                //var output1 = response.result.values;
+                //appendPre(output1);
+                localStorage.setItem('output1', response.result.values);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -122,24 +123,17 @@
                 spreadsheetId: '1z7W498Fd-1PZBpvWepitFTTef5e94V6jW_3v5zzSN7E',
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
-                var output2 = response.result.values;
-                appendPre(output2);
+                //var output2 = response.result.values;
+                //appendPre(output2);
+                localStorage.setItem('output2', response.result.values);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
-        }
 
-        function newstrong() {
+            var cat1 = localStorage.getItem('output1');
+            var cat2 = localStorage.getItem('output2');
 
-            gapi.client.sheets.spreadsheets.values.get({
-                spreadsheetId: '1z7W498Fd-1PZBpvWepitFTTef5e94V6jW_3v5zzSN7E',
-                range: 'Sheet1!A2:G2',
-            }).then((response) => {
-                localStorage.setItem('collection', response.result.values);
-                const cat = localStorage.getItem('collection');
-                console.log(cat);
-            })
-
+            appendPre('these are the two outputs', cat1, cat2);
         }
     </script>
 
