@@ -119,11 +119,7 @@
                 range: 'Sheet1!A1:F1',
             }).then(function(response) {
                 var range = response.result;
-                if (range.values.length > 0) {
-                    return (range);
-                } else {
-                    appendPre('No data found.');
-                }
+                return (range);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -135,11 +131,7 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var range = response.result;
-                if (range.values.length > 0) {
-                    return (range);
-                } else {
-                    appendPre('No data found.');
-                }
+                return (range);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
