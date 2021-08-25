@@ -117,10 +117,11 @@
         function listFarmer() {
             gapi.client.sheets.spreadsheets.values.get({
                 spreadsheetId: '1VzJiV4gMXYVu6CsEULymTHamH9KAp9EupEQOk8O8IRs',
-                range: 'Sheet1!A1:F1',
+                range: 'Sheet1!A2:G2',
             }).then(function(response) {
-                var range = response.result;
-                return (range);
+                var output = response.result.values;
+                console.log(output);
+                return (output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
