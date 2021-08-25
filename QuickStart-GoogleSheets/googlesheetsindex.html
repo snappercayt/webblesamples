@@ -14,7 +14,7 @@
     <button id="signout_button" style="display: none;">Sign Out</button>
 
     <pre id="content" style="white-space: pre-wrap;"></pre>
-
+    <div id="items"></div>
     <script type="text/javascript">
         // Client ID and API key from the Developer Console
         var CLIENT_ID = '263242106001-bdbcefem3l8msrnsc2dhrv6d8uvkkimi.apps.googleusercontent.com';
@@ -103,10 +103,6 @@
             pre.appendChild(textContent);
         }
 
-        function makeArray(message) {
-            var arr = [];
-            return arr += message;
-        }
         /**
          * Print the names and majors of students in a sample spreadsheet:
          * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
@@ -139,9 +135,9 @@
                 spreadsheetId: '1z7W498Fd-1PZBpvWepitFTTef5e94V6jW_3v5zzSN7E',
                 range: 'Sheet1!A2:G2',
             }).then((response) => {
-                makeArray(
-                    response.result.values
-                )
+                localStorage.setItem('collection', response.result.values);
+                const cat = localStorage.getItem('collection');
+                console.log(cat);
             })
 
         }
