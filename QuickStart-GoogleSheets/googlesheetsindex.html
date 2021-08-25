@@ -112,6 +112,7 @@
             }).then(function(response) {
                 var output1 = response.result.values;
                 appendPre(output1);
+                return output1;
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -122,6 +123,7 @@
             }).then(function(response) {
                 var output2 = response.result.values;
                 appendPre(output2);
+                return output2;
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
