@@ -69,12 +69,11 @@
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
                 var farm = listFarmer();
-                console.log(listFarmer());
                 var coln = listCollection();
-                for (i = 0; i < farm.values.length; i++) {
+                for (i = 0; i < farm.length; i++) {
                     appendPre('famr' + farm.values[i]);
                 }
-                for (i = 0; i < coln.values.length; i++) {
+                for (i = 0; i < coln.length; i++) {
                     appendPre('coln' + coln.values[i]);
                 }
 
@@ -120,7 +119,6 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var output = response.result.values;
-                console.log(output);
                 return (output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
@@ -132,8 +130,8 @@
                 spreadsheetId: '1z7W498Fd-1PZBpvWepitFTTef5e94V6jW_3v5zzSN7E',
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
-                var range = response.result;
-                return (range);
+                var output = response.result.values;
+                return (output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
