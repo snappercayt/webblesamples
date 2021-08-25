@@ -132,7 +132,10 @@
             var cat2 = localStorage.getItem('output2');
             console.log(cat1);
             console.log(cat2);
-            appendPre('these are the two outputs', cat1, cat2);
+            var Mobno1 = cat1[2];
+            var sendString = Mobno1 + cat1 + 'katraj';
+            appendPre('this is the final output');
+            appendPre(sendString);
         }
     </script>
 
