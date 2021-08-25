@@ -68,17 +68,8 @@
             if (isSignedIn) {
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
-                const farm = listFarmer();
-                const coln = listCollection();
-                console.log(listFarmer());
-                console.log(listCollection());
-                for (i = 0; i < farm.length; i++) {
-                    appendPre('famr' + farm.values[i]);
-                }
-                for (i = 0; i < coln.length; i++) {
-                    appendPre('coln' + coln.values[i]);
-                }
-
+                listFarmer();
+                listCollection();
             } else {
                 authorizeButton.style.display = 'block';
                 signoutButton.style.display = 'none';
@@ -121,7 +112,7 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var output = response.result.values;
-                return output;
+                appendPre(output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -133,7 +124,7 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var output = response.result.values;
-                return output;
+                appendPre(output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
