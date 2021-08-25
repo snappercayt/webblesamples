@@ -68,16 +68,7 @@
             if (isSignedIn) {
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
-                var farm = listFarmer();
-                var coln = listCollection();
-                for (i = 0; i < farm.values.length(); i++) {
-                    appendPre('famr' + farm.values[i]);
-                }
-                for (i = 0; i < coln.values.length(); i++) {
-                    appendPre('coln' + coln.values[i]);
-                }
-
-
+                finallog();
             } else {
                 authorizeButton.style.display = 'block';
                 signoutButton.style.display = 'none';
@@ -144,6 +135,18 @@
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
+
+            function finallog() {
+                var farm = listFarmer();
+                var coln = listCollection();
+                for (i = 0; i < farm.values.length(); i++) {
+                    appendPre('famr' + farm.values[i]);
+                }
+                for (i = 0; i < coln.values.length(); i++) {
+                    appendPre('coln' + coln.values[i]);
+                }
+
+            }
         }
     </script>
 
