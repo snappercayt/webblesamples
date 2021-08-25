@@ -68,12 +68,14 @@
             if (isSignedIn) {
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
-                var farm = listFarmer();
-                var coln = listCollection();
-                for (i = 0; i < farm.length(); i++) {
+                const farm = listFarmer();
+                const coln = listCollection();
+                console.log(listFarmer())
+                console.log(listCollection())
+                for (i = 0; i < farm.length; i++) {
                     appendPre('famr' + farm.values[i]);
                 }
-                for (i = 0; i < coln.length(); i++) {
+                for (i = 0; i < coln.length; i++) {
                     appendPre('coln' + coln.values[i]);
                 }
 
