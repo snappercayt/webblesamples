@@ -108,11 +108,17 @@
         function listMajors() {
             gapi.client.sheets.spreadsheets.values.get({
                 spreadsheetId: '1C_T-fw_dhRX_C2Mk-H04LHg4lB8sErYCbZ-SS4wZXHI',
-                range: 'Sheet1!A1:E1',
+                range: 'Sheet1!A1:F1',
             }).then(function(response) {
                 var range = response.result;
                 if (range.values.length > 0) {
-                    appendPre('Name, Major:');
+                    appendPre('There are the values of first head:');
+                    appendPre('code	name	mobno1	mobno2	mobno3	mobno4');
+                    for (i = 0; i < range.values.length; i++) {
+                        appendPre(range.values[i]);
+                    }
+                    appendPre('to send to serial port we want:');
+                    appendPre('MobNo1,Code,Name,Fat,Degree,SNF,Liter,Rate,Amount,CenterNme');
                     for (i = 0; i < range.values.length; i++) {
                         appendPre(range.values[i]);
                     }
