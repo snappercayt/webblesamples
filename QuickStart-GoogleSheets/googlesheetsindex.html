@@ -136,6 +136,8 @@
             console.log(Code1);
             var Mobno1 = cat1.split(",", 3);
             console.log('this is Mobno1', Mobno1[2]);
+            var mobno1 = Mobno1[2].slice(0, 5) + Mobno1[2].slice(6, 10);
+            console.log('mob no without spaces', mobno1);
             var Name1 = cat1.split(",", 2);
             console.log('this is Name1', Name1[1]);
             var sendString = Mobno1[2] + ',' + Code1 + ',' + Name1[1] + ',' + cat2 + ',katraj';
