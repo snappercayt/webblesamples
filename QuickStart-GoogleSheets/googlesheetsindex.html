@@ -69,8 +69,8 @@
                 authorizeButton.style.display = 'none';
                 signoutButton.style.display = 'block';
                 giveString();
-                var collection = newstrong();
-                console.log(collection);
+                newstrong();
+
             } else {
                 authorizeButton.style.display = 'block';
                 signoutButton.style.display = 'none';
@@ -103,6 +103,10 @@
             pre.appendChild(textContent);
         }
 
+        function makeArray(message) {
+            var arr = [];
+            return arr += message;
+        }
         /**
          * Print the names and majors of students in a sample spreadsheet:
          * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
@@ -114,7 +118,6 @@
             }).then(function(response) {
                 var output1 = response.result.values;
                 appendPre(output1);
-                return output1;
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -125,7 +128,6 @@
             }).then(function(response) {
                 var output2 = response.result.values;
                 appendPre(output2);
-                return output2;
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
@@ -137,7 +139,9 @@
                 spreadsheetId: '1z7W498Fd-1PZBpvWepitFTTef5e94V6jW_3v5zzSN7E',
                 range: 'Sheet1!A2:G2',
             }).then((response) => {
-                return response.result.values;
+                makeArray(
+                    response.result.values
+                )
             })
 
         }
