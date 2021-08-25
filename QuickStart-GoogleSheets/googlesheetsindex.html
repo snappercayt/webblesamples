@@ -121,10 +121,10 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var output = response.result.values;
-                return (output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
+            return output;
         }
 
         function listCollection() {
@@ -133,10 +133,10 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var output = response.result.values;
-                return (output);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
             });
+            return output;
         }
     </script>
 
