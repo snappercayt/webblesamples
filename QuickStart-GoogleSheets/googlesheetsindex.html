@@ -131,6 +131,7 @@
                 range: 'Sheet1!A2:G2',
             }).then(function(response) {
                 var range = response.result;
+                console.log(range);
                 return (range);
             }, function(response) {
                 appendPre('Error: ' + response.result.error.message);
