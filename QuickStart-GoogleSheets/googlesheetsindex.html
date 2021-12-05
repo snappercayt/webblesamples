@@ -144,6 +144,12 @@
             console.log('this is sendString', sendString);
             appendPre('String to send on the port');
             appendPre(sendString);
+            if ("serial" in navigator) {
+                // The Web Serial API is supported.
+                // Prompt user to select any serial port.
+                const port = await navigator.serial.requestPort();
+
+            }
         }
     </script>
 
